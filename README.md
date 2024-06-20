@@ -3,14 +3,14 @@
 Document Object Model [DOM] 
 - organizes the web page elements into a tree diagram
 - implemented by browser
-- DOM/document has properties and methods
+- DOM/document object has properties and methods
                             
 ##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) How?<br>
->###### First, USE KEYWORD 'document' to access the DOM
+>###### First, USE KEYWORD 'document' to access/reference the DOM
 >###### Then, access DOM's children as properties of the document object
 >###### Documnet Properties:` <body>, <head>, <title>, <images>, <fonts>, etc...`
 
-      Eg. Access <body> element AS A PROPERTY of document --> document.propertyToAccess --> document.body <br>
+      Eg. Access/reference <body> element AS A PROPERTY of document --> document.propertyToAccess --> document.body <br>
       
             document.body.innerHTML = 'The cat loves the dog.';
               -assigns text to the contents of the <body> element
