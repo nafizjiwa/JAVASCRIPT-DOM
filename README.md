@@ -11,15 +11,16 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
       
             document.body.innerHTML = 'The cat loves the dog.';
               -assign contents of the <body> element to this text
-        
+
+![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
+<BR>
+
 >>##### To change an element we must
 >>>>#####                              1st access the document or dom --> using document.
 >>>>#####                              2nd find the element --> using an element selector
 >>>>#####                              3rd Access the elements property --> .style, .innerHTML
 <br>
 
-![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
-<BR>
 #### ELEMENT SELECTORS - methods used to target and then manipulate HTML elements
                         
 |ELEMENT SELECTORS | OUTCOME|
