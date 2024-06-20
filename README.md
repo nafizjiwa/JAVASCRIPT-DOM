@@ -1,23 +1,31 @@
 # JAVASCRIPT-DOM
 
-Document Object Model [DOM] - a tree-like structure that organizes the elements on a web page
+Document Object Model [DOM] - organizes the web page elements into a tree diagram
                             - implemented by browser
-How do we access DOM - document object<br>
-document object allows scripts (JS) to access children of the DOM as properties<br>
-To access the <body> element we access IT as a property of document --> document.body <br>
+                            
+How do we access the DOM<br>
+DOM allows scripts (like JS) to access children (HTML ELEMENTS) <br>
+We access the <body> element as a property of document --> document.property--> document.body <br>
 
       document.body.innerHTML = 'The cat loves the dog.';
         -assign contents of the <body> element to this text
-- This property returns the body element of the DOM<br>
 
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
-DOM allows the modification, creation, and removal of elements
-|Methods | function|
+<BR>
+#### ELEMENT SELECTORS - methods used to target and then manipulate HTML elements
+                        
+|ELEMENT SELECTORS | function|
 |----|----|
-|.removeChild()|removes element|
-|.createElement()|adds an element|
-|.hidden| allows an element to be hidden|
-Methods and properties<br>
+|.getElementById('IDName')| Selects an element by its ID|
+|.querySelector('element')| Returns first matching element or null if not there|
+|.getElementsClassName('className')| Returns as an array an html collection of elements matching this classs |
+|.removeChild( )|removes element|
+|.createElement( )|adds an element|
+|.hidden( )| allows an element to be hidden|
+|||
+
+|DOM PROPERTIES||
+|BODY||
 
 ## Select and then Modify an Element
 
