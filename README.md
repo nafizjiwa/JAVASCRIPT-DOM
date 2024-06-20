@@ -37,7 +37,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 <br>
 
 | METHOD and WHAT THEY SELECT |CSS SELECTOR | OUTCOME|
-|---- |----| -----|
+|:---- |:----:| -----:|
 |.getElementById('IDName')| ID | Selects an element by its ID|
 |.querySelector('elementName')| any ELEMENT/SELECTOR |Returns first matching element or null if not there. eg. 'p'|
 |.getElementsClassName('className')| CLASS | Returns as an array an html collection of elements matching this classs |
