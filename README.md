@@ -62,7 +62,8 @@ Then use bracket notation to access individual elements of those arrays
       -----SHORT FORM------
       document.querySelector('.blue').style.backgroundColor = 'blue';
       document.querySelector('.blue').style.fontFamily = 'Roboto';
-      //Select the 1st element with a class of blue and assigns blue as the background-color
+          //Select the 1st element with a class of blue and 
+                  //assigns blue as the background-color
 
       document.body.style.backgroundColor=('pink');
       // style the background color of the body element to pink
