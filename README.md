@@ -15,12 +15,6 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
 <BR>
 
->>##### To change an element we must
->>>>#####                              1st access the document or dom --> using document.
->>>>#####                              2nd find the element --> using an element selector
->>>>#####                              3rd Access the elements property --> .style, .innerHTML
-<br>
-
 #### ELEMENT SELECTORS - methods used to target and then manipulate HTML elements
                         
 |ELEMENT SELECTORS | OUTCOME|
@@ -35,6 +29,12 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 
 
 ## Select and then Modify an Element
+
+>>##### To change an element we must
+>>>>#####                              1st access the document or dom --> using document.
+>>>>#####                              2nd find the element --> using an element selector
+>>>>#####                              3rd Access the elements property --> .style, .innerHTML
+<br>
 
 |ELEMENTS| ELEMENTS JOB | PROPERTIES | PROPERTIES JOB |
 |----|----|----|----|
