@@ -17,10 +17,14 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
 <BR>
+#### To Tweek an Element
 
-#### ELEMENT SELECTORS - methods used to target and then manipulate HTML elements
-                        
-|ELEMENT SELECTORS | OUTCOME|
+- To get access to elements --> document.elementName
+- To get access to element properties --> document.elementName.propertyName
+  
+    - Eg. document.body.innerHTML = "<h1>Nice Try<h1>" //Modify body element to display an <h1> heading
+
+| METHOD WITH CSS SELECTORS | OUTCOME|
 |----|----|
 |.getElementById('IDName')| Selects an element by its ID|
 |.querySelector('elementName')| Returns first matching element or null if not there. eg. 'p'|
@@ -32,6 +36,9 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 
 
 ## Select and then Modify an Element
+- TO MODIFY A SPECIFIC ELEMENT use METHODS - They target and select elements by ID, class, tagName etc...
+
+#####              .method('css selector')        
 
 >>##### To change an element we must
 >>>>#####                              1st access the document or dom --> using document.
@@ -42,8 +49,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 |ELEMENTS| ELEMENTS JOB | PROPERTIES | PROPERTIES JOB |
 |----|----|----|----|
 |document| allow access to this element and properties| .innerHTML| allows you to set the contents of an element |
-|body| .innerHTML|||
-|ELEMENTS| .innerHTML|||
+
 
 |METHODS|How is the element Modified|
 
