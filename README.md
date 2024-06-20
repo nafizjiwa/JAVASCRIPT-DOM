@@ -45,19 +45,23 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 |.removeChild( )|any ELEMENT/SELECTOR |removes element|
 |.createElement( )|any ELEMENT/SELECTOR|adds an element|
 |.hidden( )| any ELEMENT/SELECTOR|allows an element to be hidden|
+<br>
 
 
         document.querySelector('p') ----> returns the first paragraph
   
-        document.getElementById('bio').innerHTML = 'The description'; --> SELECTED ELEMENT BY ID: 'bio' and set its text to 'The description
+        document.getElementById('bio').innerHTML = 'The description'; 
+                      --> SELECTED ELEMENT BY ID:'bio' and set its text with .innerHTML to 'The description
 
 - For the methods which return  we use bracket notation to access individual elements of those arrays
      
-        // Set first element of .student class as 'Not yet registered'
+        // Set 1st ELEMENT of .student CLASS TO 'Not yet registered'
         document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
 
-        // Set second <li> tag as 'Cedric Diggory'
+        // Set 2ND <li> tag as 'Cedric Diggory'
           document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
+![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/e96f215f-f64c-44a2-a136-a2f917c87aa4)
+
 
 ## Style an Element
 - modify an element by changing its CSS style --> .style property<br>
