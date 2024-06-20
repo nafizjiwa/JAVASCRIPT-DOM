@@ -22,7 +22,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 - To get access to elements --> document.elementName
 - To get access to element properties --> document.elementName.propertyName
   
-    - Eg. document.body.innerHTML = "<h1>Nice Try<h1>" //Modify body element to display an <h1> heading
+      Eg. document.body.innerHTML = "<h1>Nice Try<h1>" //Modify body element to display an <h1> heading
 
 ## Select and then Modify an Element
 - TO MODIFY A SPECIFIC ELEMENT use METHODS - They target and select elements by ID, class, tagName etc...
