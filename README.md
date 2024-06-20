@@ -5,12 +5,12 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
                             
 ##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) How?<br>
 >###### First, USE KEYWORD 'document' to access the DOM
->###### Then, access the children of the DOM as properties of the document
+>###### Then, access the children of the DOM as properties of the document object
 
-      Eg. Access the <body> element AS A PROPERTY of document --> document.propertyToAccess --> document.body <br>
+      Eg. Access <body> element AS A PROPERTY of document --> document.propertyToAccess --> document.body <br>
       
-            document.body.innerHTML = 'The cat loves the dog.';
-              -assign contents of the <body> element to this text
+            `document.body.innerHTML = 'The cat loves the dog.';`
+              -assigns text to the contents of the <body> element
 
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
 <BR>
