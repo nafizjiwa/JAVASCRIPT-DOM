@@ -53,7 +53,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
         document.getElementById('bio').innerHTML = 'The description'; 
                       --> SELECTED ELEMENT BY ID:'bio' and set its text with .innerHTML to 'The description
 
-- For the methods which return  we use bracket notation to access individual elements of those arrays
+- For the methods which return an array we use bracket notation to access individual elements of those arrays
      
         // Set 1st ELEMENT of .student CLASS TO 'Not yet registered'
         document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
