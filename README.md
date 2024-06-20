@@ -23,6 +23,13 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 - To get access to element properties --> document.elementName.propertyName
   
       Eg. document.body.innerHTML = "<h1>Nice Try<h1>" //Modify body element to display an <h1> heading
+`ONCE WE FIND AN ELEMENT --> document.METHODusedTOFINDelement`
+
+| |OTHER PROPERTIES WE CAN CHANGE |
+|:---- |-----:|
+|document.elementName|.style|
+|document.elementName|.innerHTML|
+|document.elementName|.id |
 
 ## Select and then Modify an Element
 - TO MODIFY A SPECIFIC ELEMENT use METHODS - They target and select elements by ID, class, tagName etc...
@@ -61,6 +68,8 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
         // Set 2ND <li> tag as 'Cedric Diggory'
           document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/e96f215f-f64c-44a2-a136-a2f917c87aa4)
+
+
 
 
 ## Style an Element
