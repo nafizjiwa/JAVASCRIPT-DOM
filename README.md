@@ -121,12 +121,31 @@ To create an element we must assign it to be the child of an element that exists
 
       const elementToRemove = document.getElementById('vespa');
         //save the element with id = vespa
+        
       document.getElementById('italy-attractions').removeChild(elementToRemove);
-        //Find the parent element with id 'italy-attractions' and remove the child with id=vespa
+            //Find the parent element with id 'italy-attractions' and 
+                //remove the child with id=vespa
 
 
 ## Add Click Interactivity
 
 - Make an element interacrive by assigning a function to an event (ex. clicks)
 - How is an element modified
+- The <button> element detects  a click event it changes the background color
+
+   let element = document.querySelector('button');
+
+    element.onclick = function() { 
+      element.style.backgroundColor = 'blue' 
+      };
+  
+- Assign the .onclick property to a function name
+
+        let element = document.querySelector('button');
+        
+        function turnBlue() {
+           element.style.backgroundColor = 'blue';
+        }
+        
+        element.onclick = turnBlue;
 -  
