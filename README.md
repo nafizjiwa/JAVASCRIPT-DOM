@@ -4,8 +4,8 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
                             - implemented by browser
                             
 How do we access the DOM<br>
-DOM allows scripts (like JS) to access children (HTML ELEMENTS) <br>
-We access the <body> element as a property of document --> document.property--> document.body <br>
+##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) <br>
+Eg. Access the <body> element AS A PROPERTY of document --> document.property--> document.body <br>
 
       document.body.innerHTML = 'The cat loves the dog.';
         -assign contents of the <body> element to this text
@@ -17,19 +17,16 @@ We access the <body> element as a property of document --> document.property--> 
 |ELEMENT SELECTORS | OUTCOME|
 |----|----|
 |.getElementById('IDName')| Selects an element by its ID|
-|.querySelector('element')| Returns first matching element or null if not there|
+|.querySelector('elementName')| Returns first matching element or null if not there. eg. 'p'|
 |.getElementsClassName('className')| Returns as an array an html collection of elements matching this classs |
+|.getElementsByTagName('tagName')|Select and return all elements as an html collection matching the tagName eg. 'h4'|
 |.removeChild( )|removes element|
 |.createElement( )|adds an element|
 |.hidden( )| allows an element to be hidden|
-|||
 
-|DOM PROPERTIES||
-|BODY||
 
 ## Select and then Modify an Element
 
-- we can use DOM in script to acces HTML elements
 |ELEMENTS| ELEMENTS JOB | PROPERTIES | PROPERTIES JOB |
 |----|----|----|----|
 |document| allow access to this element and properties| .innerHTML| allows you to set the contents of an element |
