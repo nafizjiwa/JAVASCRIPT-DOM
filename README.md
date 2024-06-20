@@ -3,17 +3,16 @@
 Document Object Model [DOM] - organizes the web page elements into a tree diagram
                             - implemented by browser
                             
-How do we access the DOM<br>
->##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) <br>
->>##### To change an element we must
->>>>#####                              1st access the dom --> using document.
->>>>#####                              2nd find the element --> using an element selector
->>>>#####                              3rd Access the elements property --> .style, .innerHTML
-
+>##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) How?<br>
 Eg. Access the <body> element AS A PROPERTY of document --> document.property--> document.body <br>
 
       document.body.innerHTML = 'The cat loves the dog.';
         -assign contents of the <body> element to this text
+        
+>>##### To change an element we must
+>>>>#####                              1st access the dom --> using document.
+>>>>#####                              2nd find the element --> using an element selector
+>>>>#####                              3rd Access the elements property --> .style, .innerHTML
 
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
 <BR>
