@@ -28,7 +28,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 - TO MODIFY A SPECIFIC ELEMENT use METHODS - They target and select elements by ID, class, tagName etc...
 - CSS selectors give access and target the DOM element 
 
-             .method('css selector')        
+             .method('CSS SELECTOR as a string')        
 
 >>##### To change an element we must
 >>>>#####                              1st access the document or dom --> using document.
@@ -38,32 +38,26 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 
 | METHOD and WHAT THEY SELECT |CSS SELECTOR | OUTCOME|
 |:---- |:----|:-----:|
-|.getElementById('IDName')| ID | Selects an element by its ID|
-|.querySelector('elementName')| any ELEMENT/SELECTOR |Returns first matching element or null if not there. eg. 'p'|
+|.getElementById('IDName')| ID | Access an element by its ID|
+|.querySelector('elementName')| any ELEMENT/SELECTOR | Access the 1st matching element eg. 'p' or null if not there.|
 |.getElementsClassName('className')| CLASS | Returns as an array an html collection of elements matching this classs |
 |.getElementsByTagName('tagName')|TAGNAME|Select and return all elements as an html collection matching the tagName eg. 'h4'|
 |.removeChild( )|any ELEMENT/SELECTOR |removes element|
 |.createElement( )|any ELEMENT/SELECTOR|adds an element|
 |.hidden( )| any ELEMENT/SELECTOR|allows an element to be hidden|
 
-The method .querySelector('css selector as string') returns the 1st element matching the selector
 
-     document.querySelector('p') ----> returns the first paragraph
+        document.querySelector('p') ----> returns the first paragraph
+  
+        document.getElementById('bio').innerHTML = 'The description'; --> SELECTED ELEMENT BY ID: 'bio' and set its text to 'The description
 
-JavaScript has methods that select elements based on class, id, or tag name.
+- For the methods which return  we use bracket notation to access individual elements of those arrays
+     
+        // Set first element of .student class as 'Not yet registered'
+        document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
 
-    `.getElementById() --> Access element by id`
-    Eg document.getElementById('bio').innerHTML = 'The description';<br>
-
-In this example, we’ve selected the element with an ID of 'bio' and set its .innerHTML to the text 'The description'.
-      .getElementsByClassName() ---> retruns an array of elements
-      .getElementsByTagName() ---> retruns an array of elements
-      Then use bracket notation to access individual elements of those arrays
-      // Set first element of .student class as 'Not yet registered'
-      document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
-
-      // Set second <li> tag as 'Cedric Diggory'
-        document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
+        // Set second <li> tag as 'Cedric Diggory'
+          document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
 
 ## Style an Element
 - modify an element by changing its CSS style --> .style property<br>
