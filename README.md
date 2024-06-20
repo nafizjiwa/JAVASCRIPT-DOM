@@ -4,10 +4,10 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
                             - implemented by browser
                             
 How do we access the DOM<br>
-##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) <br>
-###### To change an element we must 1st access the dom --> using document.
-######                              2nd find the element --> using an element selector
-######                              3rd Access the elements property --> .style, .innerHTML
+>>>>>##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) <br>
+>>>>>##### To change an element we must 1st access the dom --> using document.
+>>>>>#####                              2nd find the element --> using an element selector
+>>>>>#####                              3rd Access the elements property --> .style, .innerHTML
 
 Eg. Access the <body> element AS A PROPERTY of document --> document.property--> document.body <br>
 
