@@ -14,7 +14,7 @@ We access the <body> element as a property of document --> document.property--> 
 <BR>
 #### ELEMENT SELECTORS - methods used to target and then manipulate HTML elements
                         
-|ELEMENT SELECTORS | function|
+|ELEMENT SELECTORS | OUTCOME|
 |----|----|
 |.getElementById('IDName')| Selects an element by its ID|
 |.querySelector('element')| Returns first matching element or null if not there|
