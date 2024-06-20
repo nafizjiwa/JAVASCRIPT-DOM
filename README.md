@@ -4,7 +4,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
                             - implemented by browser
                             
 >##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) How?<br>
-Eg. Access the <body> element AS A PROPERTY of document --> document.property--> document.body <br>
+Eg. Access the <body> element AS A PROPERTY of document --> document.propertyToAccess --> document.body <br>
 
       document.body.innerHTML = 'The cat loves the dog.';
         -assign contents of the <body> element to this text
