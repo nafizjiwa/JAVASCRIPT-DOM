@@ -24,37 +24,26 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
   
     - Eg. document.body.innerHTML = "<h1>Nice Try<h1>" //Modify body element to display an <h1> heading
 
-| METHOD WITH CSS SELECTORS | OUTCOME|
-|----|----|
-|.getElementById('IDName')| Selects an element by its ID|
-|.querySelector('elementName')| Returns first matching element or null if not there. eg. 'p'|
-|.getElementsClassName('className')| Returns as an array an html collection of elements matching this classs |
-|.getElementsByTagName('tagName')|Select and return all elements as an html collection matching the tagName eg. 'h4'|
-|.removeChild( )|removes element|
-|.createElement( )|adds an element|
-|.hidden( )| allows an element to be hidden|
-
-
 ## Select and then Modify an Element
 - TO MODIFY A SPECIFIC ELEMENT use METHODS - They target and select elements by ID, class, tagName etc...
+- CSS selectors give access and target the DOM element 
 
-#####              .method('css selector')        
+             .method('css selector')        
 
 >>##### To change an element we must
 >>>>#####                              1st access the document or dom --> using document.
 >>>>#####                              2nd find the element --> using an element selector
 >>>>#####                              3rd Access the elements property --> .style, .innerHTML
 <br>
-
-|ELEMENTS| ELEMENTS JOB | PROPERTIES | PROPERTIES JOB |
-|----|----|----|----|
-|document| allow access to this element and properties| .innerHTML| allows you to set the contents of an element |
-
-
-|METHODS|How is the element Modified|
-
-
-CSS selectors define the elements to which a set of CSS rules apply, but we can also use these same selectors to access DOM elements with JavaScript! Selectors can include a tag name, a class, or an ID.
+| METHOD and WHAT THEY SELECT |CSS SELECTOR | OUTCOME|
+|---- |----| -----|
+|.getElementById('IDName')| ID | Selects an element by its ID|
+|.querySelector('elementName')| any ELEMENT/SELECTOR |Returns first matching element or null if not there. eg. 'p'|
+|.getElementsClassName('className')| CLASS | Returns as an array an html collection of elements matching this classs |
+|.getElementsByTagName('tagName')|TAGNAME|Select and return all elements as an html collection matching the tagName eg. 'h4'|
+|.removeChild( )|any ELEMENT/SELECTOR |removes element|
+|.createElement( )|any ELEMENT/SELECTOR|adds an element|
+|.hidden( )| any ELEMENT/SELECTOR|allows an element to be hidden|
 
 The method .querySelector('css selector as string') returns the 1st element matching the selector
 
@@ -62,18 +51,18 @@ The method .querySelector('css selector as string') returns the 1st element matc
 
 JavaScript has methods that select elements based on class, id, or tag name.
 
-`.getElementById() --> Access element by id`
-Eg document.getElementById('bio').innerHTML = 'The description';<br>
+    `.getElementById() --> Access element by id`
+    Eg document.getElementById('bio').innerHTML = 'The description';<br>
 
 In this example, we’ve selected the element with an ID of 'bio' and set its .innerHTML to the text 'The description'.
-.getElementsByClassName() ---> retruns an array of elements
-.getElementsByTagName() ---> retruns an array of elements
-Then use bracket notation to access individual elements of those arrays
-// Set first element of .student class as 'Not yet registered'
-  document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
+      .getElementsByClassName() ---> retruns an array of elements
+      .getElementsByTagName() ---> retruns an array of elements
+      Then use bracket notation to access individual elements of those arrays
+      // Set first element of .student class as 'Not yet registered'
+      document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
 
-// Set second <li> tag as 'Cedric Diggory'
-  document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
+      // Set second <li> tag as 'Cedric Diggory'
+        document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
 
 ## Style an Element
 - modify an element by changing its CSS style --> .style property<br>
