@@ -12,6 +12,7 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
             document.body.innerHTML = 'The cat loves the dog.';
               -assigns text to the contents of the <body> element
 <br>
+
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
 <BR>
 
