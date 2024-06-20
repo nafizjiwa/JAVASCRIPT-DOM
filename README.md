@@ -1,8 +1,9 @@
 # JAVASCRIPT-DOM
 
-Document Object Model [DOM] - organizes the web page elements into a tree diagram
-                            - implemented by browser
-                            - DOM/document has properties and methods
+Document Object Model [DOM] 
+- organizes the web page elements into a tree diagram
+- implemented by browser
+- DOM/document has properties and methods
                             
 ##### DOM allows scripts (like JS) to access its children (HTML ELEMENTS) How?<br>
 >###### First, USE KEYWORD 'document' to access the DOM
