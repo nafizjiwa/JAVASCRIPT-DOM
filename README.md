@@ -37,11 +37,11 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 <br>
 
 | METHOD and WHAT THEY SELECT |CSS SELECTOR | OUTCOME|
-|:---- |:----|:-----:|
-|.getElementById('IDName')| ID | Access an element by its ID|
-|.querySelector('elementName')| any ELEMENT/SELECTOR | Access the 1st matching element eg. 'p' or null if not there.|
-|.getElementsClassName('className')| CLASS | Returns as an array an html collection of elements matching this classs |
-|.getElementsByTagName('tagName')|TAGNAME|Select and return all elements as an html collection matching the tagName eg. 'h4'|
+|:---- |:----|:-----:|---:|
+|.getElementById('IDName')| ID | Access an ELEMENT by its ID|
+|.querySelector('elementName')| any ELEMENT/SELECTOR | Access the 1st matching ELEMENT eg. 'p' or null if not there.|
+|.getElementsClassName('className')| CLASS | Returns as an html collection of elements/ARRAY matching this classs |
+|.getElementsByTagName('tagName')|TAGNAME|Select and return all elements as an html collection/ARRAY matching the tagName eg. 'h4'|
 |.removeChild( )|any ELEMENT/SELECTOR |removes element|
 |.createElement( )|any ELEMENT/SELECTOR|adds an element|
 |.hidden( )| any ELEMENT/SELECTOR|allows an element to be hidden|
