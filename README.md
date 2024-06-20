@@ -30,6 +30,9 @@ Document Object Model [DOM] - organizes the web page elements into a tree diagra
 |document.elementName|.style|
 |document.elementName|.innerHTML|
 |document.elementName|.id |
+|document.elementName|.onclick|
+|document.elementName|.children |
+|document.elementName|.parentNode |
 
 ## Select and then Modify an Element
 - TO MODIFY A SPECIFIC ELEMENT use METHODS - They target and select elements by ID, class, tagName etc...
