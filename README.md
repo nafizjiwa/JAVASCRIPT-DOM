@@ -154,9 +154,9 @@ To create an element we must assign it to be the child of an element that exists
 
 ## Add Click Interactivity
 
-- Make an element interacrive by assigning a function to an event (ex. clicks)
-- How is an element modified
-- The <button> element detects  a click event it changes the background color
+- Make an element interacrive by assigning a function to an event (ex. clicks)<br>
+- How is an element modified<br>
+- The <button> element detects  a click event it changes the background color<br>
 
    let element = document.querySelector('button');
 
@@ -175,32 +175,32 @@ To create an element we must assign it to be the child of an element that exists
         element.onclick = turnBlue;
 
   ## DOM EVENTS WITH JAVASCRIPT
-  - The DOM element = the event target
-  - Fire and event anywhere on the DOM
+  - The DOM element = the event target<br>
+  - Fire and event anywhere on the DOM<br>
 
         `document`.addEventListener('keydown', up);
         `document`.addEventListenter('keyup', down)
 
   ### ADD an EVENT HANDLER
-  - 2 ways to REGISTER or ADD event handlers
-        - .addEventListener() method [it can handle multiple functions]
+  - 2 ways to REGISTER or ADD event handlers<br>
+        - .addEventListener() method [it can handle multiple functions]<br>
         - .onevent property (event could be a 'click')
     
           eventTarget.onclick = eventHandlerFunction;
           eventTarget.addEventListener('eventType', eventHandlerFunction);
     
   ### REMOVE an EVENT HANDLER
-  - To stop the event target from listening or REMOVE an event handler
-  - .removeEventListener( )
-  - .addEventListener() with anonymous functions cannot be removed.
+  - To stop the event target from listening or REMOVE an event handler<br>
+  - .removeEventListener( )<br>
+  - .addEventListener() with anonymous functions cannot be removed.<br>
   - Takes 2 arguments
     
            eventTarget.removeEventListener('eventType', eventHandlerFunction);
 
   ### Event Object Properties
-  - Events are stored as Event objects containing as properties(data) and methods (functionality).
-  - A triggering event passes the event object to the event handler function.      `function eventHandlerFunction(event){ console.log(event.timeStamp);}`
-  - Some EVENT OBJECT properties
+  - Events are stored as Event objects containing as properties(data) and methods (functionality). <br>
+  - A triggering event passes the event object to the event handler function.      `function eventHandlerFunction(event){ console.log(event.timeStamp);}` <br>
+  - Some EVENT OBJECT properties<br>
                               - event.target - in object access the eventTarget or element to modify 
                               - event.type - access the event type ie. 'click', 'load', 'wheel', mouse, keyboard
                               - event.timeStamp - time between DOM load and event firing
