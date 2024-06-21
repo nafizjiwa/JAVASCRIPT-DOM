@@ -17,6 +17,7 @@ Document Object Model [DOM]
 <br>
 
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/81e4a279-6378-48f8-a26b-be8cb06f0cb1)
+
 <BR>
 #### To Tweek an Element
 
@@ -172,4 +173,4 @@ To create an element we must assign it to be the child of an element that exists
         }
         
         element.onclick = turnBlue;
--  
+  
