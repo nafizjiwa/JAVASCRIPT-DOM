@@ -43,10 +43,10 @@ Document Object Model [DOM]
 
              .method('CSS SELECTOR as a string')        
 
->>##### To change an element we must
->>>>#####                              1st access the document or dom --> using document.
->>>>#####                              2nd find the element --> using an element selector
->>>>#####                              3rd Access the elements property --> .style, .innerHTML
+>##### To change an element we must
+>>>#####                              1st access the document or dom --> using document.
+>>>#####                              2nd find the element --> using an element selector
+>>>#####                              3rd Access the elements property --> .style, .innerHTML
 <br>
 
 | METHOD and WHAT THEY SELECT |CSS SELECTOR | OUTCOME|
