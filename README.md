@@ -176,6 +176,10 @@ To create an element we must assign it to be the child of an element that exists
 
   ## DOM EVENTS WITH JAVASCRIPT
   - The DOM element = the event target
+  - Fire and event anywhere on the DOM
+
+        `document`.addEventListener('keydown', up);
+        `document`.addEventListenter('keyup', down)
 
   ### ADD an EVENT HANDLER
   - 2 ways to REGISTER or ADD event handlers
