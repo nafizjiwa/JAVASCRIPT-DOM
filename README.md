@@ -176,10 +176,6 @@ To create an element we must assign it to be the child of an element that exists
 
   ## DOM EVENTS WITH JAVASCRIPT
   - The DOM element = the event target<br>
-  - Fire and event anywhere on the DOM<br>
-
-        `document`.addEventListener('keydown', up);
-        `document`.addEventListenter('keyup', down)
 
   ### ADD an EVENT HANDLER
   - 2 ways to REGISTER or ADD event handlers<br>
@@ -188,6 +184,11 @@ To create an element we must assign it to be the child of an element that exists
     
           eventTarget.onclick = eventHandlerFunction;
           eventTarget.addEventListener('eventType', eventHandlerFunction);
+    
+- Fire an event on the DOM itself use document as the event target<br>
+
+          document.addEventListener('keydown', up);
+          document.addEventListenter('keyup', down);
     
   ### REMOVE an EVENT HANDLER
   - To stop the event target from listening or REMOVE an event handler<br>
@@ -200,8 +201,7 @@ To create an element we must assign it to be the child of an element that exists
 ### Event Object Properties
 - Events are stored as Event objects containing as properties(data) and methods (functionality). <br>
 - A triggering event passes the event object to the event handler function.      `function eventHandlerFunction(event){ console.log(event.timeStamp);}` <br>
-- <br>
-
+<br>
 | EVENT OBJECT PROPERTIES |WHAT DO THEY GIVE ACCESS TO  |
 |:---- |-----:|
 |event.target| eventTarget or element to modify|
