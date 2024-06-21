@@ -173,4 +173,30 @@ To create an element we must assign it to be the child of an element that exists
         }
         
         element.onclick = turnBlue;
-  
+
+  ## DOM EVENTS WITH JAVASCRIPT
+  - DOM element is the event target
+
+  ### ADD an EVENT HANDLER
+  - 2 ways to REGISTER or ADD event handlers
+        - .addEventListener() method [it can handle multiple functions]
+        - .onevent property (event could be a 'click')
+    
+          eventTarget.onclick = eventHandlerFunction;
+          eventTarget.addEventListener('event', eventHandlerFunction);
+    
+  ### REMOVE an EVENT HANDLER
+  - To stop the event target from listening or REMOVE an event handler
+  - .removeEventListener( )
+  - .addEventListener() with anonymous functions cannot be removed.
+  - Takes 2 arguments
+    
+           eventTarget.removeEventListener('eventType', eventHandlerFunction);
+
+  ### Event Object Properties
+  - Events are stored as Event objects containing as properties(data) and methods (functionality).
+  - A triggering event passes the event object to the event handler function.      `function eventHandlerFunction(event){ console.log(event.timeStamp);}`
+  - Some EVENT OBJECT properties
+                              - .target - access the eventTarget/element of the object
+                              - .type - access the event type ie. 'click', 'load'
+                              - .timeStamp - time between DOM load and event firing
