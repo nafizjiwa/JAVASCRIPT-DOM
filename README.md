@@ -73,9 +73,8 @@ Document Object Model [DOM]
 
         // Set 2ND <li> tag as 'Cedric Diggory'
           document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;
+  
 ![image](https://github.com/nafizjiwa/JAVASCRIPT-DOM/assets/56348190/e96f215f-f64c-44a2-a136-a2f917c87aa4)
-
-
 
 
 ## Style an Element
