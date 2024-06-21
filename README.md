@@ -201,6 +201,6 @@ To create an element we must assign it to be the child of an element that exists
   - Events are stored as Event objects containing as properties(data) and methods (functionality). <br>
   - A triggering event passes the event object to the event handler function.      `function eventHandlerFunction(event){ console.log(event.timeStamp);}` <br>
   - Some EVENT OBJECT properties<br>
-                              - event.target - in object access the eventTarget or element to modify 
-                              - event.type - access the event type ie. 'click', 'load', 'wheel', mouse, keyboard
-                              - event.timeStamp - time between DOM load and event firing
+                              `- event.target - in object access the eventTarget or element to modify `
+                             ` - event.type - access the event type ie. 'click', 'load', 'wheel', mouse, keyboard`
+                              `- event.timeStamp - time between DOM load and event firing`
