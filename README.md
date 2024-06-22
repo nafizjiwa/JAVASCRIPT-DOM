@@ -59,10 +59,12 @@ Document Object Model [DOM]
 |.createElement( )|any ELEMENT/SELECTOR|adds an element|
 |.hidden( )| any ELEMENT/SELECTOR|allows an element to be hidden|
 <br>
-
+### document.querySelector('targetElement') 
 
         document.querySelector('p') ----> returns the first paragraph
-  
+
+### document.getElementById('targetElement')  
+
         document.getElementById('bio').innerHTML = 'The description'; 
                       --> SELECTED ELEMENT BY ID:'bio' and set its text with .innerHTML to 'The description
 
