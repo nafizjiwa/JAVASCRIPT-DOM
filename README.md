@@ -79,8 +79,11 @@ Document Object Model [DOM]
 
 ## Style an Element
 - modify an element by changing its CSS style --> .style property<br>
+
 ##### SYNTAX
-`element.style.CSSProperty`<br>
+
+###  element.style.CSSProperty
+###  element.style.display = value;
 
       let blueElement = document.querySelector('.blue');
       blueElement.style.backgroundColor = 'blue';
